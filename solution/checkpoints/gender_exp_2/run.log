@@ -1,0 +1,807 @@
+Program start: Sun May  8 16:24:21 2022
+dataroot : /data/suparna/workspace/TinyPortraits_thumbnails/
+classification_type : gender
+exp_name : gender_exp_2
+batch_size : 200
+epochs : 50
+lr : 0.001
+---------------------Epoch 0/50---------------------
+Train start:Sun May  8 16:24:24 2022
+Training epoch:0 iteration: 0 loss:0.7883303761482239
+Training epoch:0 iteration: 10 loss:0.3754998445510864
+Training epoch:0 iteration: 20 loss:0.3813922107219696
+Training epoch:0 iteration: 30 loss:0.2918282449245453
+Training epoch:0 iteration: 40 loss:0.23940615355968475
+Training epoch:0 iteration: 50 loss:0.2221611589193344
+Training epoch:0 iteration: 60 loss:0.31009358167648315
+Training epoch:0 iteration: 70 loss:0.28144940733909607
+Training epoch:0 iteration: 80 loss:0.2506096363067627
+Training epoch:0 iteration: 90 loss:0.2503328025341034
+Training epoch:0 iteration: 100 loss:0.21226415038108826
+Training epoch:0 iteration: 110 loss:0.18122152984142303
+Training epoch:0 iteration: 120 loss:0.2535175085067749
+Training epoch:0 iteration: 130 loss:0.17550000548362732
+Training epoch:0 iteration: 140 loss:0.16880300641059875
+Training epoch:0 iteration: 150 loss:0.2220935970544815
+Training epoch:0 iteration: 160 loss:0.16057349741458893
+Training epoch:0 iteration: 170 loss:0.1871618628501892
+Training epoch:0 iteration: 180 loss:0.23733042180538177
+Training epoch:0 iteration: 190 loss:0.14844252169132233
+Training epoch:0 iteration: 200 loss:0.19130495190620422
+Training epoch:0 iteration: 210 loss:0.14361315965652466
+Training epoch:0 iteration: 220 loss:0.2321910262107849
+Training epoch:0 iteration: 230 loss:0.16988250613212585
+Training epoch:0 iteration: 240 loss:0.20664693415164948
+Training epoch:0 iteration: 250 loss:0.12251386046409607
+Training epoch:0 iteration: 260 loss:0.18795040249824524
+Training epoch:0 iteration: 270 loss:0.1277768760919571
+Training epoch:0 iteration: 280 loss:0.1729622334241867
+Training epoch:0 iteration: 290 loss:0.1349462866783142
+Training epoch:0 iteration: 300 loss:0.19291290640830994
+Training epoch:0 iteration: 310 loss:0.17111535370349884
+Training epoch:0 iteration: 320 loss:0.1656883805990219
+Training epoch:0 iteration: 330 loss:0.17811670899391174
+Training epoch:0 iteration: 340 loss:0.1624976098537445
+Training epoch:0 iteration: 350 loss:0.24950693547725677
+Training epoch:0 iteration: 360 loss:0.1592840701341629
+Training epoch:0 iteration: 370 loss:0.14051611721515656
+Training epoch:0 iteration: 380 loss:0.10530942678451538
+Training epoch:0 iteration: 390 loss:0.18071235716342926
+Training epoch:0 iteration: 400 loss:0.18982774019241333
+Training epoch:0 iteration: 410 loss:0.1986856311559677
+Training epoch:0 iteration: 420 loss:0.2423924058675766
+Train end:Sun May  8 16:26:47 2022
+Training epoch:0 loss:0.2187048778457697 
+               precision    recall  f1-score   support
+
+      female       0.90      0.90      0.90     42874
+        male       0.90      0.90      0.90     42931
+
+    accuracy                           0.90     85805
+   macro avg       0.90      0.90      0.90     85805
+weighted avg       0.90      0.90      0.90     85805
+
+Validation start:Sun May  8 16:26:47 2022
+Validation epoch:0 iteration: 0 loss:0.26499617099761963
+Validation epoch:0 iteration: 10 loss:0.24636393785476685
+Validation epoch:0 iteration: 20 loss:0.36416393518447876
+Validation epoch:0 iteration: 30 loss:0.3145092725753784
+Validation epoch:0 iteration: 40 loss:0.347320556640625
+Validation epoch:0 iteration: 50 loss:0.30337631702423096
+Validation epoch:0 iteration: 60 loss:0.3863382637500763
+Validation epoch:0 iteration: 70 loss:0.43232762813568115
+Validation epoch:0 iteration: 80 loss:0.3328481912612915
+Validation epoch:0 iteration: 90 loss:0.3765297830104828
+Validation epoch:0 iteration: 100 loss:0.37769782543182373
+Validation end:Sun May  8 16:26:54 2022
+Validation epoch:0 loss:0.3392015157474412
+               precision    recall  f1-score   support
+
+      female       0.84      1.00      0.91     13408
+        male       1.00      0.69      0.82      8044
+
+    accuracy                           0.88     21452
+   macro avg       0.92      0.84      0.86     21452
+weighted avg       0.90      0.88      0.88     21452
+
+---------------------Epoch 1/50---------------------
+Train start:Sun May  8 16:26:54 2022
+Training epoch:1 iteration: 0 loss:0.14850148558616638
+Training epoch:1 iteration: 10 loss:0.2059471309185028
+Training epoch:1 iteration: 20 loss:0.154837504029274
+Training epoch:1 iteration: 30 loss:0.17709431052207947
+Training epoch:1 iteration: 40 loss:0.16697388887405396
+Training epoch:1 iteration: 50 loss:0.1405775547027588
+Training epoch:1 iteration: 60 loss:0.2078191637992859
+Training epoch:1 iteration: 70 loss:0.16361837089061737
+Training epoch:1 iteration: 80 loss:0.14883850514888763
+Training epoch:1 iteration: 90 loss:0.1603269726037979
+Training epoch:1 iteration: 100 loss:0.16116705536842346
+Training epoch:1 iteration: 110 loss:0.1944296956062317
+Training epoch:1 iteration: 120 loss:0.16026835143566132
+Training epoch:1 iteration: 130 loss:0.1522253453731537
+Training epoch:1 iteration: 140 loss:0.10000783950090408
+Training epoch:1 iteration: 150 loss:0.13333642482757568
+Training epoch:1 iteration: 160 loss:0.14217187464237213
+Training epoch:1 iteration: 170 loss:0.19644303619861603
+Training epoch:1 iteration: 180 loss:0.11556586623191833
+Training epoch:1 iteration: 190 loss:0.1180216372013092
+Training epoch:1 iteration: 200 loss:0.14238348603248596
+Training epoch:1 iteration: 210 loss:0.17467990517616272
+Training epoch:1 iteration: 220 loss:0.139906644821167
+Training epoch:1 iteration: 230 loss:0.09634832292795181
+Training epoch:1 iteration: 240 loss:0.15525715053081512
+Training epoch:1 iteration: 250 loss:0.1857208013534546
+Training epoch:1 iteration: 260 loss:0.16187801957130432
+Training epoch:1 iteration: 270 loss:0.07420973479747772
+Training epoch:1 iteration: 280 loss:0.12284360080957413
+Training epoch:1 iteration: 290 loss:0.19366617500782013
+Training epoch:1 iteration: 300 loss:0.11891500651836395
+Training epoch:1 iteration: 310 loss:0.10836025327444077
+Training epoch:1 iteration: 320 loss:0.17160631716251373
+Training epoch:1 iteration: 330 loss:0.1248021051287651
+Training epoch:1 iteration: 340 loss:0.11168469488620758
+Training epoch:1 iteration: 350 loss:0.1134483739733696
+Training epoch:1 iteration: 360 loss:0.10331136733293533
+Training epoch:1 iteration: 370 loss:0.18340136110782623
+Training epoch:1 iteration: 380 loss:0.17685523629188538
+Training epoch:1 iteration: 390 loss:0.18020771443843842
+Training epoch:1 iteration: 400 loss:0.1283264458179474
+Training epoch:1 iteration: 410 loss:0.15465229749679565
+Training epoch:1 iteration: 420 loss:0.10677309334278107
+Train end:Sun May  8 16:30:16 2022
+Training epoch:1 loss:0.14727519345144893 
+               precision    recall  f1-score   support
+
+      female       0.94      0.94      0.94     42963
+        male       0.94      0.94      0.94     42842
+
+    accuracy                           0.94     85805
+   macro avg       0.94      0.94      0.94     85805
+weighted avg       0.94      0.94      0.94     85805
+
+Validation start:Sun May  8 16:30:16 2022
+Validation epoch:1 iteration: 0 loss:0.05626979470252991
+Validation epoch:1 iteration: 10 loss:0.04637913405895233
+Validation epoch:1 iteration: 20 loss:0.07119970768690109
+Validation epoch:1 iteration: 30 loss:0.038185540586709976
+Validation epoch:1 iteration: 40 loss:0.058756519109010696
+Validation epoch:1 iteration: 50 loss:0.051650237292051315
+Validation epoch:1 iteration: 60 loss:0.09511058777570724
+Validation epoch:1 iteration: 70 loss:0.07361061125993729
+Validation epoch:1 iteration: 80 loss:0.052117761224508286
+Validation epoch:1 iteration: 90 loss:0.03839878737926483
+Validation epoch:1 iteration: 100 loss:0.04696641489863396
+Validation end:Sun May  8 16:30:30 2022
+Validation epoch:1 loss:0.06855297568081706
+               precision    recall  f1-score   support
+
+      female       0.99      0.97      0.98     13408
+        male       0.96      0.98      0.97      8044
+
+    accuracy                           0.97     21452
+   macro avg       0.97      0.98      0.97     21452
+weighted avg       0.98      0.97      0.98     21452
+
+---------------------Epoch 2/50---------------------
+Train start:Sun May  8 16:30:31 2022
+Training epoch:2 iteration: 0 loss:0.13668660819530487
+Training epoch:2 iteration: 10 loss:0.1256275326013565
+Training epoch:2 iteration: 20 loss:0.13233761489391327
+Training epoch:2 iteration: 30 loss:0.18881109356880188
+Training epoch:2 iteration: 40 loss:0.12437442690134048
+Training epoch:2 iteration: 50 loss:0.11622228473424911
+Training epoch:2 iteration: 60 loss:0.1592327058315277
+Training epoch:2 iteration: 70 loss:0.13148583471775055
+Training epoch:2 iteration: 80 loss:0.15885229408740997
+Training epoch:2 iteration: 90 loss:0.1351502239704132
+Training epoch:2 iteration: 100 loss:0.1750413328409195
+Training epoch:2 iteration: 110 loss:0.14999818801879883
+Training epoch:2 iteration: 120 loss:0.10483523458242416
+Training epoch:2 iteration: 130 loss:0.08437330275774002
+Training epoch:2 iteration: 140 loss:0.0946953073143959
+Training epoch:2 iteration: 150 loss:0.10940450429916382
+Training epoch:2 iteration: 160 loss:0.15315596759319305
+Training epoch:2 iteration: 170 loss:0.13160203397274017
+Training epoch:2 iteration: 180 loss:0.15170776844024658
+Training epoch:2 iteration: 190 loss:0.1408231407403946
+Training epoch:2 iteration: 200 loss:0.14437808096408844
+Training epoch:2 iteration: 210 loss:0.1300615519285202
+Training epoch:2 iteration: 220 loss:0.11992697417736053
+Training epoch:2 iteration: 230 loss:0.09842586517333984
+Training epoch:2 iteration: 240 loss:0.15708748996257782
+Training epoch:2 iteration: 250 loss:0.08678891509771347
+Training epoch:2 iteration: 260 loss:0.12937894463539124
+Training epoch:2 iteration: 270 loss:0.08598341792821884
+Training epoch:2 iteration: 280 loss:0.1940753161907196
+Training epoch:2 iteration: 290 loss:0.1020224392414093
+Training epoch:2 iteration: 300 loss:0.12048530578613281
+Training epoch:2 iteration: 310 loss:0.10658220946788788
+Training epoch:2 iteration: 320 loss:0.09239361435174942
+Training epoch:2 iteration: 330 loss:0.22490420937538147
+Training epoch:2 iteration: 340 loss:0.11459909379482269
+Training epoch:2 iteration: 350 loss:0.13397455215454102
+Training epoch:2 iteration: 360 loss:0.07341083884239197
+Training epoch:2 iteration: 370 loss:0.11551161855459213
+Training epoch:2 iteration: 380 loss:0.11836288124322891
+Training epoch:2 iteration: 390 loss:0.15003958344459534
+Training epoch:2 iteration: 400 loss:0.1150900200009346
+Training epoch:2 iteration: 410 loss:0.09235655516386032
+Training epoch:2 iteration: 420 loss:0.11080507189035416
+Train end:Sun May  8 16:43:27 2022
+Training epoch:2 loss:0.1347072383778733 
+               precision    recall  f1-score   support
+
+      female       0.95      0.95      0.95     42751
+        male       0.95      0.95      0.95     43054
+
+    accuracy                           0.95     85805
+   macro avg       0.95      0.95      0.95     85805
+weighted avg       0.95      0.95      0.95     85805
+
+Validation start:Sun May  8 16:43:27 2022
+Validation epoch:2 iteration: 0 loss:0.09269284456968307
+Validation epoch:2 iteration: 10 loss:0.09860869497060776
+Validation epoch:2 iteration: 20 loss:0.1426791548728943
+Validation epoch:2 iteration: 30 loss:0.14962628483772278
+Validation epoch:2 iteration: 40 loss:0.14781711995601654
+Validation epoch:2 iteration: 50 loss:0.17204496264457703
+Validation epoch:2 iteration: 60 loss:0.21152709424495697
+Validation epoch:2 iteration: 70 loss:0.16565711796283722
+Validation epoch:2 iteration: 80 loss:0.12137731909751892
+Validation epoch:2 iteration: 90 loss:0.11625319719314575
+Validation epoch:2 iteration: 100 loss:0.16617858409881592
+Validation end:Sun May  8 16:43:41 2022
+Validation epoch:2 loss:0.16493058632369395
+               precision    recall  f1-score   support
+
+      female       0.99      0.90      0.95     13408
+        male       0.86      0.99      0.92      8044
+
+    accuracy                           0.94     21452
+   macro avg       0.93      0.95      0.93     21452
+weighted avg       0.94      0.94      0.94     21452
+
+---------------------Epoch 3/50---------------------
+Train start:Sun May  8 16:43:41 2022
+Training epoch:3 iteration: 0 loss:0.1955060064792633
+Training epoch:3 iteration: 10 loss:0.3398633301258087
+Training epoch:3 iteration: 20 loss:0.29278984665870667
+Training epoch:3 iteration: 30 loss:0.2605452239513397
+Training epoch:3 iteration: 40 loss:0.18604785203933716
+Training epoch:3 iteration: 50 loss:0.18194366991519928
+Training epoch:3 iteration: 60 loss:0.1583547443151474
+Training epoch:3 iteration: 70 loss:0.10071319341659546
+Training epoch:3 iteration: 80 loss:0.1586630791425705
+Training epoch:3 iteration: 90 loss:0.19749069213867188
+Training epoch:3 iteration: 100 loss:0.1636054813861847
+Training epoch:3 iteration: 110 loss:0.15463440120220184
+Training epoch:3 iteration: 120 loss:0.1532142162322998
+Training epoch:3 iteration: 130 loss:0.14795087277889252
+Training epoch:3 iteration: 140 loss:0.22076520323753357
+Training epoch:3 iteration: 150 loss:0.1258254051208496
+Training epoch:3 iteration: 160 loss:0.13371561467647552
+Training epoch:3 iteration: 170 loss:0.14065156877040863
+Training epoch:3 iteration: 180 loss:0.13941994309425354
+Training epoch:3 iteration: 190 loss:0.15855950117111206
+Training epoch:3 iteration: 200 loss:0.1194390282034874
+Training epoch:3 iteration: 210 loss:0.17333583533763885
+Training epoch:3 iteration: 220 loss:0.10792135447263718
+Training epoch:3 iteration: 230 loss:0.11825083941221237
+Training epoch:3 iteration: 240 loss:0.10169975459575653
+Training epoch:3 iteration: 250 loss:0.12026333808898926
+Training epoch:3 iteration: 260 loss:0.1312585473060608
+Training epoch:3 iteration: 270 loss:0.12253707647323608
+Training epoch:3 iteration: 280 loss:0.12494248151779175
+Training epoch:3 iteration: 290 loss:0.10243117064237595
+Training epoch:3 iteration: 300 loss:0.12774470448493958
+Training epoch:3 iteration: 310 loss:0.17083099484443665
+Training epoch:3 iteration: 320 loss:0.11814814805984497
+Training epoch:3 iteration: 330 loss:0.1043340414762497
+Training epoch:3 iteration: 340 loss:0.1918521523475647
+Training epoch:3 iteration: 350 loss:0.11353448033332825
+Training epoch:3 iteration: 360 loss:0.10149254649877548
+Training epoch:3 iteration: 370 loss:0.11990316212177277
+Training epoch:3 iteration: 380 loss:0.0796053484082222
+Training epoch:3 iteration: 390 loss:0.11074143648147583
+Training epoch:3 iteration: 400 loss:0.1828216314315796
+Training epoch:3 iteration: 410 loss:0.12219642847776413
+Training epoch:3 iteration: 420 loss:0.08866368234157562
+Train end:Sun May  8 16:56:29 2022
+Training epoch:3 loss:0.15739231244769208 
+               precision    recall  f1-score   support
+
+      female       0.93      0.94      0.93     42739
+        male       0.94      0.93      0.93     43066
+
+    accuracy                           0.93     85805
+   macro avg       0.93      0.93      0.93     85805
+weighted avg       0.93      0.93      0.93     85805
+
+Validation start:Sun May  8 16:56:30 2022
+Validation epoch:3 iteration: 0 loss:0.033657412976026535
+Validation epoch:3 iteration: 10 loss:0.04973402991890907
+Validation epoch:3 iteration: 20 loss:0.0788215696811676
+Validation epoch:3 iteration: 30 loss:0.03479946404695511
+Validation epoch:3 iteration: 40 loss:0.0377744697034359
+Validation epoch:3 iteration: 50 loss:0.04608241096138954
+Validation epoch:3 iteration: 60 loss:0.12341310828924179
+Validation epoch:3 iteration: 70 loss:0.05170394852757454
+Validation epoch:3 iteration: 80 loss:0.04217112436890602
+Validation epoch:3 iteration: 90 loss:0.025562787428498268
+Validation epoch:3 iteration: 100 loss:0.04763313755393028
+Validation end:Sun May  8 16:56:44 2022
+Validation epoch:3 loss:0.06450905712942283
+               precision    recall  f1-score   support
+
+      female       0.99      0.98      0.98     13408
+        male       0.96      0.98      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 4/50---------------------
+Train start:Sun May  8 16:56:44 2022
+Training epoch:4 iteration: 0 loss:0.08265651762485504
+Training epoch:4 iteration: 10 loss:0.14082446694374084
+Training epoch:4 iteration: 20 loss:0.11752773076295853
+Training epoch:4 iteration: 30 loss:0.13455647230148315
+Training epoch:4 iteration: 40 loss:0.13154910504817963
+Training epoch:4 iteration: 50 loss:0.09316866099834442
+Training epoch:4 iteration: 60 loss:0.15017804503440857
+Training epoch:4 iteration: 70 loss:0.08844708651304245
+Training epoch:4 iteration: 80 loss:0.1288769394159317
+Training epoch:4 iteration: 90 loss:0.13316325843334198
+Training epoch:4 iteration: 100 loss:0.10900438576936722
+Training epoch:4 iteration: 110 loss:0.1836124062538147
+Training epoch:4 iteration: 120 loss:0.11118707060813904
+Training epoch:4 iteration: 130 loss:0.08890213072299957
+Training epoch:4 iteration: 140 loss:0.08022666722536087
+Training epoch:4 iteration: 150 loss:0.18336597084999084
+Training epoch:4 iteration: 160 loss:0.12079332023859024
+Training epoch:4 iteration: 170 loss:0.12771855294704437
+Training epoch:4 iteration: 180 loss:0.0787765234708786
+Training epoch:4 iteration: 190 loss:0.11630769819021225
+Training epoch:4 iteration: 200 loss:0.13090553879737854
+Training epoch:4 iteration: 210 loss:0.10379692912101746
+Training epoch:4 iteration: 220 loss:0.13041749596595764
+Training epoch:4 iteration: 230 loss:0.12451709061861038
+Training epoch:4 iteration: 240 loss:0.07328970730304718
+Training epoch:4 iteration: 250 loss:0.1424715369939804
+Training epoch:4 iteration: 260 loss:0.13446305692195892
+Training epoch:4 iteration: 270 loss:0.16745565831661224
+Training epoch:4 iteration: 280 loss:0.09079252928495407
+Training epoch:4 iteration: 290 loss:0.12598809599876404
+Training epoch:4 iteration: 300 loss:0.13350912928581238
+Training epoch:4 iteration: 310 loss:0.09109476953744888
+Training epoch:4 iteration: 320 loss:0.10010886192321777
+Training epoch:4 iteration: 330 loss:0.18648195266723633
+Training epoch:4 iteration: 340 loss:0.1403016597032547
+Training epoch:4 iteration: 350 loss:0.07205639034509659
+Training epoch:4 iteration: 360 loss:0.1149386391043663
+Training epoch:4 iteration: 370 loss:0.11282896995544434
+Training epoch:4 iteration: 380 loss:0.10903909057378769
+Training epoch:4 iteration: 390 loss:0.07404421269893646
+Training epoch:4 iteration: 400 loss:0.15119147300720215
+Training epoch:4 iteration: 410 loss:0.08616291731595993
+Training epoch:4 iteration: 420 loss:0.14953382313251495
+Train end:Sun May  8 17:09:42 2022
+Training epoch:4 loss:0.11791188586936441 
+               precision    recall  f1-score   support
+
+      female       0.95      0.95      0.95     42776
+        male       0.95      0.95      0.95     43029
+
+    accuracy                           0.95     85805
+   macro avg       0.95      0.95      0.95     85805
+weighted avg       0.95      0.95      0.95     85805
+
+Validation start:Sun May  8 17:09:42 2022
+Validation epoch:4 iteration: 0 loss:0.033080413937568665
+Validation epoch:4 iteration: 10 loss:0.0628710389137268
+Validation epoch:4 iteration: 20 loss:0.07422932982444763
+Validation epoch:4 iteration: 30 loss:0.06357967108488083
+Validation epoch:4 iteration: 40 loss:0.03972848504781723
+Validation epoch:4 iteration: 50 loss:0.044975005090236664
+Validation epoch:4 iteration: 60 loss:0.13012677431106567
+Validation epoch:4 iteration: 70 loss:0.051578033715486526
+Validation epoch:4 iteration: 80 loss:0.0402732789516449
+Validation epoch:4 iteration: 90 loss:0.03135054185986519
+Validation epoch:4 iteration: 100 loss:0.06061232089996338
+Validation end:Sun May  8 17:09:56 2022
+Validation epoch:4 loss:0.06240788635935773
+               precision    recall  f1-score   support
+
+      female       0.98      0.98      0.98     13408
+        male       0.97      0.97      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 5/50---------------------
+Train start:Sun May  8 17:09:57 2022
+Training epoch:5 iteration: 0 loss:0.09173481166362762
+Training epoch:5 iteration: 10 loss:0.12538903951644897
+Training epoch:5 iteration: 20 loss:0.08972062915563583
+Training epoch:5 iteration: 30 loss:0.09427585452795029
+Training epoch:5 iteration: 40 loss:0.08031613379716873
+Training epoch:5 iteration: 50 loss:0.12056519836187363
+Training epoch:5 iteration: 60 loss:0.10665690153837204
+Training epoch:5 iteration: 70 loss:0.05854913219809532
+Training epoch:5 iteration: 80 loss:0.11195076256990433
+Training epoch:5 iteration: 90 loss:0.07189861685037613
+Training epoch:5 iteration: 100 loss:0.11172570288181305
+Training epoch:5 iteration: 110 loss:0.14977417886257172
+Training epoch:5 iteration: 120 loss:0.14598912000656128
+Training epoch:5 iteration: 130 loss:0.15741585195064545
+Training epoch:5 iteration: 140 loss:0.16815698146820068
+Training epoch:5 iteration: 150 loss:0.1046917736530304
+Training epoch:5 iteration: 160 loss:0.06844586879014969
+Training epoch:5 iteration: 170 loss:0.0851493775844574
+Training epoch:5 iteration: 180 loss:0.08250223100185394
+Training epoch:5 iteration: 190 loss:0.12612353265285492
+Training epoch:5 iteration: 200 loss:0.11189829558134079
+Training epoch:5 iteration: 210 loss:0.16287463903427124
+Training epoch:5 iteration: 220 loss:0.12814097106456757
+Training epoch:5 iteration: 230 loss:0.10095957666635513
+Training epoch:5 iteration: 240 loss:0.07892096042633057
+Training epoch:5 iteration: 250 loss:0.15232042968273163
+Training epoch:5 iteration: 260 loss:0.09901104867458344
+Training epoch:5 iteration: 270 loss:0.08041353523731232
+Training epoch:5 iteration: 280 loss:0.10004277527332306
+Training epoch:5 iteration: 290 loss:0.09413748979568481
+Training epoch:5 iteration: 300 loss:0.08630307018756866
+Training epoch:5 iteration: 310 loss:0.06730762869119644
+Training epoch:5 iteration: 320 loss:0.15517039597034454
+Training epoch:5 iteration: 330 loss:0.1406218707561493
+Training epoch:5 iteration: 340 loss:0.07793604582548141
+Training epoch:5 iteration: 350 loss:0.09757646918296814
+Training epoch:5 iteration: 360 loss:0.1441909819841385
+Training epoch:5 iteration: 370 loss:0.0916338711977005
+Training epoch:5 iteration: 380 loss:0.09737148135900497
+Training epoch:5 iteration: 390 loss:0.0983085036277771
+Training epoch:5 iteration: 400 loss:0.07290460914373398
+Training epoch:5 iteration: 410 loss:0.10515445470809937
+Training epoch:5 iteration: 420 loss:0.036554884165525436
+Train end:Sun May  8 17:22:43 2022
+Training epoch:5 loss:0.10897000949223375 
+               precision    recall  f1-score   support
+
+      female       0.96      0.96      0.96     43212
+        male       0.96      0.96      0.96     42593
+
+    accuracy                           0.96     85805
+   macro avg       0.96      0.96      0.96     85805
+weighted avg       0.96      0.96      0.96     85805
+
+Validation start:Sun May  8 17:22:43 2022
+Validation epoch:5 iteration: 0 loss:0.032469116151332855
+Validation epoch:5 iteration: 10 loss:0.06818708032369614
+Validation epoch:5 iteration: 20 loss:0.09560474753379822
+Validation epoch:5 iteration: 30 loss:0.04221095144748688
+Validation epoch:5 iteration: 40 loss:0.049614883959293365
+Validation epoch:5 iteration: 50 loss:0.04380970448255539
+Validation epoch:5 iteration: 60 loss:0.10441432893276215
+Validation epoch:5 iteration: 70 loss:0.04798002541065216
+Validation epoch:5 iteration: 80 loss:0.04203459247946739
+Validation epoch:5 iteration: 90 loss:0.027684595435857773
+Validation epoch:5 iteration: 100 loss:0.04268280044198036
+Validation end:Sun May  8 17:22:57 2022
+Validation epoch:5 loss:0.05842109827359242
+               precision    recall  f1-score   support
+
+      female       0.98      0.98      0.98     13408
+        male       0.97      0.97      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 6/50---------------------
+Train start:Sun May  8 17:22:58 2022
+Training epoch:6 iteration: 0 loss:0.1412907838821411
+Training epoch:6 iteration: 10 loss:0.1237170472741127
+Training epoch:6 iteration: 20 loss:0.0888318419456482
+Training epoch:6 iteration: 30 loss:0.10203476995229721
+Training epoch:6 iteration: 40 loss:0.1013684868812561
+Training epoch:6 iteration: 50 loss:0.14949247241020203
+Training epoch:6 iteration: 60 loss:0.14612184464931488
+Training epoch:6 iteration: 70 loss:0.13326683640480042
+Training epoch:6 iteration: 80 loss:0.14030537009239197
+Training epoch:6 iteration: 90 loss:0.10884913802146912
+Training epoch:6 iteration: 100 loss:0.0880955308675766
+Training epoch:6 iteration: 110 loss:0.07922948151826859
+Training epoch:6 iteration: 120 loss:0.09132049232721329
+Training epoch:6 iteration: 130 loss:0.0855710506439209
+Training epoch:6 iteration: 140 loss:0.12124045193195343
+Training epoch:6 iteration: 150 loss:0.05964265018701553
+Training epoch:6 iteration: 160 loss:0.10584793984889984
+Training epoch:6 iteration: 170 loss:0.1257655918598175
+Training epoch:6 iteration: 180 loss:0.056259218603372574
+Training epoch:6 iteration: 190 loss:0.14208832383155823
+Training epoch:6 iteration: 200 loss:0.09931471943855286
+Training epoch:6 iteration: 210 loss:0.09472174942493439
+Training epoch:6 iteration: 220 loss:0.03713265433907509
+Training epoch:6 iteration: 230 loss:0.09578632563352585
+Training epoch:6 iteration: 240 loss:0.0910109356045723
+Training epoch:6 iteration: 250 loss:0.1155843436717987
+Training epoch:6 iteration: 260 loss:0.06509485840797424
+Training epoch:6 iteration: 270 loss:0.07960743457078934
+Training epoch:6 iteration: 280 loss:0.10676486045122147
+Training epoch:6 iteration: 290 loss:0.09465765953063965
+Training epoch:6 iteration: 300 loss:0.06027783080935478
+Training epoch:6 iteration: 310 loss:0.13601090013980865
+Training epoch:6 iteration: 320 loss:0.12449192255735397
+Training epoch:6 iteration: 330 loss:0.08957500755786896
+Training epoch:6 iteration: 340 loss:0.04630572348833084
+Training epoch:6 iteration: 350 loss:0.1261131465435028
+Training epoch:6 iteration: 360 loss:0.13542014360427856
+Training epoch:6 iteration: 370 loss:0.10497137904167175
+Training epoch:6 iteration: 380 loss:0.14339414238929749
+Training epoch:6 iteration: 390 loss:0.08135450631380081
+Training epoch:6 iteration: 400 loss:0.1287250965833664
+Training epoch:6 iteration: 410 loss:0.09430170804262161
+Training epoch:6 iteration: 420 loss:0.08532766997814178
+Train end:Sun May  8 17:35:55 2022
+Training epoch:6 loss:0.10445170750798181 
+               precision    recall  f1-score   support
+
+      female       0.96      0.96      0.96     42737
+        male       0.96      0.96      0.96     43068
+
+    accuracy                           0.96     85805
+   macro avg       0.96      0.96      0.96     85805
+weighted avg       0.96      0.96      0.96     85805
+
+Validation start:Sun May  8 17:35:56 2022
+Validation epoch:6 iteration: 0 loss:0.019088584929704666
+Validation epoch:6 iteration: 10 loss:0.035562749952077866
+Validation epoch:6 iteration: 20 loss:0.08436903357505798
+Validation epoch:6 iteration: 30 loss:0.027255350723862648
+Validation epoch:6 iteration: 40 loss:0.04829791560769081
+Validation epoch:6 iteration: 50 loss:0.014170740731060505
+Validation epoch:6 iteration: 60 loss:0.14650733768939972
+Validation epoch:6 iteration: 70 loss:0.05369605869054794
+Validation epoch:6 iteration: 80 loss:0.07308192551136017
+Validation epoch:6 iteration: 90 loss:0.0180361308157444
+Validation epoch:6 iteration: 100 loss:0.03817562013864517
+Validation end:Sun May  8 17:36:10 2022
+Validation epoch:6 loss:0.06433485756214294
+               precision    recall  f1-score   support
+
+      female       0.99      0.98      0.98     13408
+        male       0.97      0.98      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 7/50---------------------
+Train start:Sun May  8 17:36:10 2022
+Training epoch:7 iteration: 0 loss:0.14081217348575592
+Training epoch:7 iteration: 10 loss:0.17083120346069336
+Training epoch:7 iteration: 20 loss:0.10414442420005798
+Training epoch:7 iteration: 30 loss:0.11321988701820374
+Training epoch:7 iteration: 40 loss:0.0970323383808136
+Training epoch:7 iteration: 50 loss:0.09632018208503723
+Training epoch:7 iteration: 60 loss:0.09575659781694412
+Training epoch:7 iteration: 70 loss:0.08292140811681747
+Training epoch:7 iteration: 80 loss:0.1511959582567215
+Training epoch:7 iteration: 90 loss:0.08696269989013672
+Training epoch:7 iteration: 100 loss:0.07312022894620895
+Training epoch:7 iteration: 110 loss:0.12891168892383575
+Training epoch:7 iteration: 120 loss:0.1270316243171692
+Training epoch:7 iteration: 130 loss:0.08867392688989639
+Training epoch:7 iteration: 140 loss:0.10798049718141556
+Training epoch:7 iteration: 150 loss:0.14113405346870422
+Training epoch:7 iteration: 160 loss:0.07565010339021683
+Training epoch:7 iteration: 170 loss:0.10822039842605591
+Training epoch:7 iteration: 180 loss:0.09390002489089966
+Training epoch:7 iteration: 190 loss:0.08433561027050018
+Training epoch:7 iteration: 200 loss:0.10751581937074661
+Training epoch:7 iteration: 210 loss:0.06292422115802765
+Training epoch:7 iteration: 220 loss:0.10003138333559036
+Training epoch:7 iteration: 230 loss:0.0750739648938179
+Training epoch:7 iteration: 240 loss:0.05842694267630577
+Training epoch:7 iteration: 250 loss:0.08300378173589706
+Training epoch:7 iteration: 260 loss:0.11222570389509201
+Training epoch:7 iteration: 270 loss:0.22076216340065002
+Training epoch:7 iteration: 280 loss:0.08833689987659454
+Training epoch:7 iteration: 290 loss:0.09814973175525665
+Training epoch:7 iteration: 300 loss:0.07336064428091049
+Training epoch:7 iteration: 310 loss:0.08896807581186295
+Training epoch:7 iteration: 320 loss:0.10099267959594727
+Training epoch:7 iteration: 330 loss:0.12036360055208206
+Training epoch:7 iteration: 340 loss:0.09531709551811218
+Training epoch:7 iteration: 350 loss:0.11031510680913925
+Training epoch:7 iteration: 360 loss:0.13536186516284943
+Training epoch:7 iteration: 370 loss:0.09470745176076889
+Training epoch:7 iteration: 380 loss:0.10222554951906204
+Training epoch:7 iteration: 390 loss:0.10171429812908173
+Training epoch:7 iteration: 400 loss:0.08937001973390579
+Training epoch:7 iteration: 410 loss:0.15715809166431427
+Training epoch:7 iteration: 420 loss:0.06305728107690811
+Train end:Sun May  8 17:48:54 2022
+Training epoch:7 loss:0.10123409572338989 
+               precision    recall  f1-score   support
+
+      female       0.96      0.96      0.96     42809
+        male       0.96      0.96      0.96     42996
+
+    accuracy                           0.96     85805
+   macro avg       0.96      0.96      0.96     85805
+weighted avg       0.96      0.96      0.96     85805
+
+Validation start:Sun May  8 17:48:54 2022
+Validation epoch:7 iteration: 0 loss:0.02490893378853798
+Validation epoch:7 iteration: 10 loss:0.03427278622984886
+Validation epoch:7 iteration: 20 loss:0.10563172399997711
+Validation epoch:7 iteration: 30 loss:0.046063076704740524
+Validation epoch:7 iteration: 40 loss:0.052685488015413284
+Validation epoch:7 iteration: 50 loss:0.03511849418282509
+Validation epoch:7 iteration: 60 loss:0.09271513670682907
+Validation epoch:7 iteration: 70 loss:0.03276976943016052
+Validation epoch:7 iteration: 80 loss:0.06879983097314835
+Validation epoch:7 iteration: 90 loss:0.027224363759160042
+Validation epoch:7 iteration: 100 loss:0.04739405959844589
+Validation end:Sun May  8 17:49:08 2022
+Validation epoch:7 loss:0.06460998932123874
+               precision    recall  f1-score   support
+
+      female       0.99      0.98      0.98     13408
+        male       0.96      0.98      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 8/50---------------------
+Train start:Sun May  8 17:49:08 2022
+Training epoch:8 iteration: 0 loss:0.07291607558727264
+Training epoch:8 iteration: 10 loss:0.10408752411603928
+Training epoch:8 iteration: 20 loss:0.0752209946513176
+Training epoch:8 iteration: 30 loss:0.12468890845775604
+Training epoch:8 iteration: 40 loss:0.10839550197124481
+Training epoch:8 iteration: 50 loss:0.08283312618732452
+Training epoch:8 iteration: 60 loss:0.08988481760025024
+Training epoch:8 iteration: 70 loss:0.09186936169862747
+Training epoch:8 iteration: 80 loss:0.13108396530151367
+Training epoch:8 iteration: 90 loss:0.08918999880552292
+Training epoch:8 iteration: 100 loss:0.05264745652675629
+Training epoch:8 iteration: 110 loss:0.08066190034151077
+Training epoch:8 iteration: 120 loss:0.06486758589744568
+Training epoch:8 iteration: 130 loss:0.1310192346572876
+Training epoch:8 iteration: 140 loss:0.1389588564634323
+Training epoch:8 iteration: 150 loss:0.09082300215959549
+Training epoch:8 iteration: 160 loss:0.05300569534301758
+Training epoch:8 iteration: 170 loss:0.13725920021533966
+Training epoch:8 iteration: 180 loss:0.11532126367092133
+Training epoch:8 iteration: 190 loss:0.05723021179437637
+Training epoch:8 iteration: 200 loss:0.057315725833177567
+Training epoch:8 iteration: 210 loss:0.042403481900691986
+Training epoch:8 iteration: 220 loss:0.0971827283501625
+Training epoch:8 iteration: 230 loss:0.07299527525901794
+Training epoch:8 iteration: 240 loss:0.07269857078790665
+Training epoch:8 iteration: 250 loss:0.0634395182132721
+Training epoch:8 iteration: 260 loss:0.0828099176287651
+Training epoch:8 iteration: 270 loss:0.06993564963340759
+Training epoch:8 iteration: 280 loss:0.06237230449914932
+Training epoch:8 iteration: 290 loss:0.0763920322060585
+Training epoch:8 iteration: 300 loss:0.05307580158114433
+Training epoch:8 iteration: 310 loss:0.05957267805933952
+Training epoch:8 iteration: 320 loss:0.11123860627412796
+Training epoch:8 iteration: 330 loss:0.09403282403945923
+Training epoch:8 iteration: 340 loss:0.0794171541929245
+Training epoch:8 iteration: 350 loss:0.061488013714551926
+Training epoch:8 iteration: 360 loss:0.10292837768793106
+Training epoch:8 iteration: 370 loss:0.08268066495656967
+Training epoch:8 iteration: 380 loss:0.09587161988019943
+Training epoch:8 iteration: 390 loss:0.058620892465114594
+Training epoch:8 iteration: 400 loss:0.06050698459148407
+Training epoch:8 iteration: 410 loss:0.14222708344459534
+Training epoch:8 iteration: 420 loss:0.07944431900978088
+Train end:Sun May  8 18:02:10 2022
+Training epoch:8 loss:0.0942559908599008 
+               precision    recall  f1-score   support
+
+      female       0.96      0.96      0.96     42713
+        male       0.96      0.96      0.96     43092
+
+    accuracy                           0.96     85805
+   macro avg       0.96      0.96      0.96     85805
+weighted avg       0.96      0.96      0.96     85805
+
+Validation start:Sun May  8 18:02:10 2022
+Validation epoch:8 iteration: 0 loss:0.0501236617565155
+Validation epoch:8 iteration: 10 loss:0.0667686015367508
+Validation epoch:8 iteration: 20 loss:0.08802720904350281
+Validation epoch:8 iteration: 30 loss:0.061811041086912155
+Validation epoch:8 iteration: 40 loss:0.12012302130460739
+Validation epoch:8 iteration: 50 loss:0.05394883081316948
+Validation epoch:8 iteration: 60 loss:0.1304367184638977
+Validation epoch:8 iteration: 70 loss:0.05961613357067108
+Validation epoch:8 iteration: 80 loss:0.1115848645567894
+Validation epoch:8 iteration: 90 loss:0.06357349455356598
+Validation epoch:8 iteration: 100 loss:0.05557965114712715
+Validation end:Sun May  8 18:02:24 2022
+Validation epoch:8 loss:0.08041477610822767
+               precision    recall  f1-score   support
+
+      female       0.99      0.97      0.98     13408
+        male       0.95      0.98      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.97      0.98      0.97     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 9/50---------------------
+Train start:Sun May  8 18:02:24 2022
+Training epoch:9 iteration: 0 loss:0.05062500014901161
+Training epoch:9 iteration: 10 loss:0.11738982796669006
+Training epoch:9 iteration: 20 loss:0.07713723182678223
+Training epoch:9 iteration: 30 loss:0.08190327882766724
+Training epoch:9 iteration: 40 loss:0.046428922563791275
+Training epoch:9 iteration: 50 loss:0.10038475692272186
+Training epoch:9 iteration: 60 loss:0.08590474724769592
+Training epoch:9 iteration: 70 loss:0.06305964291095734
+Training epoch:9 iteration: 80 loss:0.08820607513189316
+Training epoch:9 iteration: 90 loss:0.120167076587677
+Training epoch:9 iteration: 100 loss:0.09959322214126587
+Training epoch:9 iteration: 110 loss:0.06347072124481201
+Training epoch:9 iteration: 120 loss:0.0952797681093216
+Training epoch:9 iteration: 130 loss:0.1110655814409256
+Training epoch:9 iteration: 140 loss:0.0532127283513546
+Training epoch:9 iteration: 150 loss:0.13311369717121124
+Training epoch:9 iteration: 160 loss:0.07978569716215134
+Training epoch:9 iteration: 170 loss:0.08187229931354523
+Training epoch:9 iteration: 180 loss:0.0856642797589302
+Training epoch:9 iteration: 190 loss:0.11459419876337051
+Training epoch:9 iteration: 200 loss:0.06778676807880402
+Training epoch:9 iteration: 210 loss:0.07853231579065323
+Training epoch:9 iteration: 220 loss:0.11565685272216797
+Training epoch:9 iteration: 230 loss:0.08248302340507507
+Training epoch:9 iteration: 240 loss:0.07920096814632416
+Training epoch:9 iteration: 250 loss:0.07223496586084366
+Training epoch:9 iteration: 260 loss:0.06559276580810547
+Training epoch:9 iteration: 270 loss:0.12092645466327667
+Training epoch:9 iteration: 280 loss:0.10910908877849579
+Training epoch:9 iteration: 290 loss:0.05105005204677582
+Training epoch:9 iteration: 300 loss:0.0635339766740799
+Training epoch:9 iteration: 310 loss:0.10654646903276443
+Training epoch:9 iteration: 320 loss:0.09694541245698929
+Training epoch:9 iteration: 330 loss:0.10247815400362015
+Training epoch:9 iteration: 340 loss:0.15090295672416687
+Training epoch:9 iteration: 350 loss:0.07559608668088913
+Training epoch:9 iteration: 360 loss:0.08624193072319031
+Training epoch:9 iteration: 370 loss:0.07480942457914352
+Training epoch:9 iteration: 380 loss:0.06798867881298065
+Training epoch:9 iteration: 390 loss:0.08509297668933868
+Training epoch:9 iteration: 400 loss:0.11108908802270889
+Training epoch:9 iteration: 410 loss:0.10136032104492188
+Training epoch:9 iteration: 420 loss:0.14387325942516327
+Train end:Sun May  8 18:15:20 2022
+Training epoch:9 loss:0.09873016445009514 
+               precision    recall  f1-score   support
+
+      female       0.96      0.96      0.96     42826
+        male       0.96      0.96      0.96     42979
+
+    accuracy                           0.96     85805
+   macro avg       0.96      0.96      0.96     85805
+weighted avg       0.96      0.96      0.96     85805
+
+Validation start:Sun May  8 18:15:20 2022
+Validation epoch:9 iteration: 0 loss:0.07774858921766281
+Validation epoch:9 iteration: 10 loss:0.06491479277610779
+Validation epoch:9 iteration: 20 loss:0.04965052753686905
+Validation epoch:9 iteration: 30 loss:0.029399285092949867
+Validation epoch:9 iteration: 40 loss:0.03432280197739601
+Validation epoch:9 iteration: 50 loss:0.04269089177250862
+Validation epoch:9 iteration: 60 loss:0.11857377737760544
+Validation epoch:9 iteration: 70 loss:0.03047948144376278
+Validation epoch:9 iteration: 80 loss:0.023828066885471344
+Validation epoch:9 iteration: 90 loss:0.026032330468297005
+Validation epoch:9 iteration: 100 loss:0.08388924598693848
+Validation end:Sun May  8 18:15:35 2022
+Validation epoch:9 loss:0.0671164716973349
+               precision    recall  f1-score   support
+
+      female       0.98      0.98      0.98     13408
+        male       0.97      0.97      0.97      8044
+
+    accuracy                           0.98     21452
+   macro avg       0.98      0.98      0.98     21452
+weighted avg       0.98      0.98      0.98     21452
+
+---------------------Epoch 10/50---------------------
+Train start:Sun May  8 18:15:35 2022
+Training epoch:10 iteration: 0 loss:0.08878453075885773
+Training epoch:10 iteration: 10 loss:0.2478473037481308
+Training epoch:10 iteration: 20 loss:0.19098307192325592
+Training epoch:10 iteration: 30 loss:0.13081535696983337
+Training epoch:10 iteration: 40 loss:0.22267600893974304
+Training epoch:10 iteration: 50 loss:0.15911829471588135
+Training epoch:10 iteration: 60 loss:0.13161849975585938
+Training epoch:10 iteration: 70 loss:0.06718216091394424
