@@ -64,6 +64,7 @@ start training by below command:
     --epochs 50 \
     --lr 0.001
 ´´´
+
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
@@ -91,6 +92,7 @@ python -m mains.predict \
     --exp_name gender_exp_2 \
     --ckpt 'best' \
 ´´´
+
 #### Result
 1. all the model checkpoints will be saved in 'checkpoints/<exp_name>/models/
 2. all the log files will be saved 'checkpoints/<exp_name>/*.log
@@ -136,6 +138,7 @@ python -m mains.train_classifier \
     --epochs 50 \
     --lr 0.001
 ´´´
+
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
@@ -210,6 +213,7 @@ python -m mains.train_multitask \
     --epochs 50 \
     --lr 0.001
 ´´´
+
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
@@ -226,6 +230,7 @@ python -m mains.test_multitask \
     --ckpt 'best' \
 
 ´´´
+
 #### prediction
 start prediction by below command:
 
@@ -238,6 +243,7 @@ python -m mains.predict \
     --exp_name multitask_exp_2 \
     --ckpt 'best'
 ´´´
+
 #### Result
 1. all the model checkpoints will be saved in 'checkpoints/<exp_name>/models/
 2. all the log files will be saved 'checkpoints/<exp_name>/*.log
@@ -276,6 +282,7 @@ weighted avg       0.98      0.98      0.98     17760
 weighted avg       0.89      0.89      0.89     17760
 
 ´´´
+
 ### Sample Images Evaluation
 I have gathered 10 different images from different sources including different ethnicity than training data and black and white colored image.
 
