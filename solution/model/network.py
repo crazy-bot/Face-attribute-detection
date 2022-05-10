@@ -1,7 +1,6 @@
 from ast import Num
 import sys
 from turtle import forward
-sys.path.append('/data/suparna/workspace/')
 from facenet_pytorch import MTCNN, InceptionResnetV1
 import torch.nn as nn
 import torch
