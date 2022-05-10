@@ -55,7 +55,7 @@ I have finetuned all the layers of [facenet](https://github.com/timesler/facenet
 #### Training
 start training by below command:
 
-´´´
+```
     python -m mains.train_classifier \
     --dataroot '/data/suparna/workspace/TinyPortraits_thumbnails/' \
     --classification_type 'gender' \
@@ -63,14 +63,14 @@ start training by below command:
     --batch_size 200 \
     --epochs 50 \
     --lr 0.001
-´´´
+```
 
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.test_classifier \
@@ -79,11 +79,11 @@ python -m mains.test_classifier \
     --exp_name gender_exp_2 \
     --batch_size 1 \
     --ckpt 'best' \
-´´´
+```
 #### Prediction
 start testing by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.predict \
@@ -91,7 +91,7 @@ python -m mains.predict \
     --classification_type 'gender' \
     --exp_name gender_exp_2 \
     --ckpt 'best' \
-´´´
+```
 
 #### Result
 1. all the model checkpoints will be saved in 'checkpoints/<exp_name>/models/
@@ -115,7 +115,7 @@ Below is the classification report for test set:
     accuracy                           0.98     26815
    macro avg       0.98      0.98      0.98     26815
 weighted avg       0.98      0.98      0.98     26815
-´´´
+
 
 ### Haircolor Classification 
 I have finetuned all the layers of [facenet](https://github.com/timesler/facenet-pytorch) model which was trained on 'VGGFace2'. No of class is 5
@@ -127,7 +127,7 @@ I have finetuned all the layers of [facenet](https://github.com/timesler/facenet
 #### Training
 start training by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.train_classifier \
@@ -137,14 +137,14 @@ python -m mains.train_classifier \
     --batch_size 200 \
     --epochs 50 \
     --lr 0.001
-´´´
+```
 
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.test_classifier \
@@ -153,11 +153,11 @@ python -m mains.test_classifier \
     --exp_name hair_exp_3 \
     --batch_size 200 \
     --ckpt 'best' \
-´´´
+```
 #### prediction
 start prediction by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.predict \
@@ -165,7 +165,7 @@ python -m mains.predict \
     --classification_type 'haircolor' \
     --exp_name hair_exp_3 \
     --ckpt 'best' \
-´´´
+```
 #### Result
 1. all the model checkpoints will be saved in 'checkpoints/<exp_name>/models/
 2. all the log files will be saved 'checkpoints/<exp_name>/*.log
@@ -190,7 +190,7 @@ Below is the classification report for test set:
     accuracy                           0.90     17760
    macro avg       0.87      0.87      0.87     17760
 weighted avg       0.90      0.90      0.90     17760
-´´´
+
 ### Multi task training
 For training a single model for multiple tasks, I have trained multi head network with common feature extraction layers. Because here the two tasks are two similar classification that needs common understanding of the image feature, we can do this.
 
@@ -202,7 +202,7 @@ For training a single model for multiple tasks, I have trained multi head networ
 #### Training
 start training by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.train_multitask \
@@ -212,14 +212,14 @@ python -m mains.train_multitask \
     --batch_size 200 \
     --epochs 50 \
     --lr 0.001
-´´´
+```
 
 see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.test_multitask \
@@ -229,12 +229,12 @@ python -m mains.test_multitask \
     --batch_size 200 \
     --ckpt 'best' \
 
-´´´
+```
 
 #### prediction
 start prediction by below command:
 
-´´´
+```
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
 python -m mains.predict \
@@ -242,7 +242,7 @@ python -m mains.predict \
     --classification_type 'multitask' \
     --exp_name multitask_exp_2 \
     --ckpt 'best'
-´´´
+```
 
 #### Result
 1. all the model checkpoints will be saved in 'checkpoints/<exp_name>/models/
@@ -255,7 +255,7 @@ python -m mains.predict \
 
 Below is the classification report for test set:
 
-´´´
+
 **classification_report of gender classification:**
 
                precision    recall  f1-score   support
@@ -281,7 +281,7 @@ weighted avg       0.98      0.98      0.98     17760
    macro avg       0.87      0.80      0.83     17760
 weighted avg       0.89      0.89      0.89     17760
 
-´´´
+
 
 ### Sample Images Evaluation
 I have gathered 10 different images from different sources including different ethnicity than training data and black and white colored image.
