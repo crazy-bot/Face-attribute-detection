@@ -54,6 +54,7 @@ I have finetuned all the layers of [facenet](https://github.com/timesler/facenet
 
 #### Training
 start training by below command:
+
 ´´´
     python -m mains.train_classifier \
     --dataroot '/data/suparna/workspace/TinyPortraits_thumbnails/' \
@@ -67,6 +68,7 @@ see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -79,6 +81,7 @@ python -m mains.test_classifier \
 ´´´
 #### Prediction
 start testing by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -121,6 +124,7 @@ I have finetuned all the layers of [facenet](https://github.com/timesler/facenet
 
 #### Training
 start training by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -136,6 +140,7 @@ see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -148,6 +153,7 @@ python -m mains.test_classifier \
 ´´´
 #### prediction
 start prediction by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -192,6 +198,7 @@ For training a single model for multiple tasks, I have trained multi head networ
 
 #### Training
 start training by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -207,6 +214,7 @@ see [utils.py](solution/utils/utils.py) for the description of each arguments.
 
 #### Testing
 start testing by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
@@ -220,6 +228,7 @@ python -m mains.test_multitask \
 ´´´
 #### prediction
 start prediction by below command:
+
 ´´´
 CUDA_LAUNCH_BLOCKING=1 \
 CUDA_VISIBLE_DEVICES=1 \
