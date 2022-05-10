@@ -311,13 +311,14 @@ The intermmediate outputs are saved in [this folder](stylegan2-ada-pytorch/train
 For training and generating image refer [StyleGAN2 README](stylegan2-ada-pytorch/README.md)
 
 To generate with different seed:
-´´´
+
+```
 cd stylegan2-ada-pytorch
 
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
     --network=training-runs/00006-TinyPortraits_thumbnails-auto1-resumecustom/network-snapshot-003000.pkl
+```
 
-´´´
 
 The network was trained for 15 hours.
 
